@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/registration"
+        tools:context=".registration">
+
+        <!--        android:shadowDx="5.10"-->
+        <!--        android:shadowDy="5.10"-->
+        <!--        android:shadowRadius="300"-->
+        <!--        android:shadowColor="#FFC300" />-->
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/baseline_arrow_back_24"
+            android:drawablePadding="10dp"
+            android:hint="Back"
+            android:padding="20dp"
+            android:textColor="#F3EFE7E7"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="ExtraText" />
+
+
+    <TextView
+        android:id="@+id/Signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Join us"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Signin"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="10dp"
+        android:background="#41FFFFFF"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="20dp"
+        android:hint="Username"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="50dp" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Username"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="10dp"
+        android:background="#41FFFFFF"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="20dp"
+        android:hint="Email"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="50dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Email"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:background="#41FFFFFF"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:drawablePadding="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="36dp"
+        tools:ignore="ExtraText" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbtn"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="164dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/Password"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#9CF7F7F8"
+        android:text="Join"
+        android:textColor="#F44336"
+        app:cornerRadius="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/forgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text=" Or signup with"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="67dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/fb"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="27dp"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/insta"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="27dp"
+            android:src="@drawable/instagram" />
+
+        <ImageView
+            android:id="@+id/google"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="27dp"
+            android:src="@drawable/google" />
+
+        <ImageView
+            android:id="@+id/tw"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="27dp"
+            android:src="@drawable/twitter" />
+
+    </LinearLayout>
+
+</RelativeLayout>

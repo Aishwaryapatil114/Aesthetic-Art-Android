@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/artsupp2"
+    tools:context=".Artist">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="423dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="350dp"
+        android:background="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-6dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/vangogh" />
+
+        <LinearLayout
+            android:id="@+id/color"
+            android:layout_width="310dp"
+            android:layout_height="123dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="Van Gogh"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="Owner of StarryNight"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="March 30, 1853 - July 29, 1890"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/loginbtn1"
+                    style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                    android:layout_width="73dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#2896BD"
+                    android:text="Read"
+                    android:textAlignment="center"
+                    android:textColor="#FCE8E3E3"
+                    android:textSize="3dp"
+                    app:cornerRadius="36dp" />
+            </LinearLayout>
+
+            \
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="423dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="350dp"
+        android:background="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-8dp">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/leonardo" />
+
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="123dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="Leonardo da Vinci"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="Art of Sculptor"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="15 April 1452 – 2 May 1519"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/art"
+                    style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                    android:layout_width="73dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#2896BD"
+                    android:text="Read"
+                    android:textAlignment="center"
+                    android:textColor="#FCE8E3E3"
+                    android:textSize="3dp"
+                    app:cornerRadius="36dp" />
+            </LinearLayout>
+
+            \
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="423dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-12dp">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="165dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/gil" />
+
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="123dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="Amrita Sher-Gil"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="Hungarian-Indian painter"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="30 January1913 – 5 December1941"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/artist"
+                    style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                    android:layout_width="73dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#2896BD"
+                    android:text="Read"
+                    android:textAlignment="center"
+                    android:textColor="#FCE8E3E3"
+                    android:textSize="3dp"
+                    app:cornerRadius="36dp" />
+            </LinearLayout>
+
+            \
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="429dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="80dp"
+        android:background="@color/black"
+        android:outlineAmbientShadowColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-15dp">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="173dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/raviverma" />
+
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="123dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="Raja Ravi Varma"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="Indian Painter and artist "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:text="29 April 1848 – 2 October 1906"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/loginbtn4"
+                    style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+                    android:layout_width="73dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#2896BD"
+                    android:text="Read"
+                    android:textAlignment="center"
+                    android:textColor="#FCE8E3E3"
+                    android:textSize="3dp"
+                    app:cornerRadius="36dp" />
+            </LinearLayout>
+
+            \
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:drawableRight="@drawable/baseline_navigate_next_24"
+
+        android:hint="Next"
+        android:padding="10dp"
+        android:textColor="#F3EFE7E7"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="ExtraText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="104dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="35dp"
+        android:text="ARTIST"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="101dp"
+        android:drawableTop="@drawable/baseline_home_24"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toStartOf="@+id/back"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

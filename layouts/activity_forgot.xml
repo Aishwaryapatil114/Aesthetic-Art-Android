@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/forgor1"
+    android:textAlignment="center"
+    tools:context=".Forgot">
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/baseline_arrow_back_ios_new_24"
+        android:drawablePadding="10dp"
+        android:hint="Back"
+        android:padding="20dp"
+        android:textColor="#F3EFE7E7"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="ExtraText" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="340dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="10dp"
+        android:drawableLeft="@drawable/baseline_navigate_next_24"
+        android:drawablePadding="10dp"
+        android:padding="20dp"
+        android:textColor="#F3EFE7E7"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="ExtraText" />
+
+
+    <TextView
+        android:id="@+id/Signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Forgot Password"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Signin"
+        android:layout_alignStart="@id/Signin"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="459dp"
+        android:text=" Enter Registared Email or mobile number to get otp"
+        android:textAlignment="center"
+        android:textColor="#FBFAFA"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Signin"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#41FFFFFF"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="20dp"
+        android:hint="Email"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="50dp" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Username"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#41FFFFFF"
+        android:drawableLeft="@drawable/baseline_phone_android_24"
+        android:drawablePadding="20dp"
+        android:hint="Number"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="36dp"
+        tools:ignore="ExtraText" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbtn"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="164dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/Password"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#aa4493"
+        android:text="Get OTP"
+        android:textColor="#FCE8E3E3"
+        app:cornerRadius="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>
